@@ -14,4 +14,7 @@ sendOrderExpireArrivalNoti
 ```
 
 ## Pubsub 에 게시된 메시지 결과
+```shell
+$ gcloud pubsub subscriptions pull carmerce-order-expire-arrival-noti-timer-local-v1 --auto-ack
+```
 ![img.png](img.png)
